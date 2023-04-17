@@ -13,7 +13,7 @@ public class Test {
 		PreparedStatement pstmt = conn.prepareStatement("select * from x where y = '"+hohoho+"'");
 		ResultSet rs = pstmt.executeQuery();
 		while(rs.next()) {
-			System.out.println(rs.getBoolean(1));
+			System.out.println(rs.getBoolean(1)); 
 		}
 	}
 
